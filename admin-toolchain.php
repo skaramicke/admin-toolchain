@@ -7,6 +7,7 @@
  * Version: 1.0.0
  * Author: Mikael Grön <skaramicke@gmail.com>
  * Author URI: https://github.com/skaramicke
+ * License: GPLv2
  */
 
 define('WPAT_VERSION', "v1.0.0");
