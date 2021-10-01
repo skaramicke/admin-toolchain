@@ -1,6 +1,6 @@
 <?php
 
-class Show_WP_Blocks_Menu_Item extends WPAT_Tool
+class WPAT_Show_WP_Blocks_Menu_Item extends WPAT_Tool
 {
     const TOOL_ID = 'wpat_show_wp_blocks_menu_item';
     const OPTION_NAME = 'wpat_show_wp_blocks_menu_item';
@@ -49,4 +49,4 @@ class Show_WP_Blocks_Menu_Item extends WPAT_Tool
     }
 }
 
-$wpat_tool_instances['show_wp_blocks_menu_item'] = new Show_WP_Blocks_Menu_Item();
+$wpat_tool_instances['show_wp_blocks_menu_item'] = new WPAT_Show_WP_Blocks_Menu_Item();
