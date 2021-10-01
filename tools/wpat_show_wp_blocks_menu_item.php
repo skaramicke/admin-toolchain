@@ -24,7 +24,7 @@ class WPAT_Show_WP_Blocks_Menu_Item extends WPAT_Tool
         <table class="form-table">
             <tr valign="top">
                 <th scope="row">Add menu item for Wordpress' Reusable Blocks</th>
-                <td><input type="checkbox" name="<?php echo $this::OPTION_NAME ?>" <?php echo $this->enabled() ? ' checked="checked"' : ""; ?>" /></td>
+                <td><input type="checkbox" name="<?php echo esc_attr($this::OPTION_NAME) ?>" <?php echo $this->enabled() ? ' checked="checked"' : ""; ?>" /></td>
             </tr>
         </table>
 <?php
