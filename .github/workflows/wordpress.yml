@@ -16,6 +16,7 @@ jobs:
       - name: Prepare package
         run: |
           rm -rf .github
+          rm -rf .git
 
       - name: WordPress Plugin Deploy
         uses: nk-o/action-wordpress-plugin-deploy@master
